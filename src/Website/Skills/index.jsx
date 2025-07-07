@@ -46,6 +46,7 @@ const Skills = ({ skillsData }) => {
                     <img
                       src={skill.icon}
                       alt={skill.name}
+                      loading="lazy"
                       width={40}
                       height={40}
                       className="h-full w-auto rounded-lg"

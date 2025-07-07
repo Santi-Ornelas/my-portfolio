@@ -3,7 +3,7 @@ import React from "react";
 const BehindTheResume = ({ behindTheResume }) => {
   return (
     <section id="behind-the-resume" className="relative z-50 border-t my-12 lg:my-24 border-[#25213b]" data-aos="fade-up">
-      <img src="/section.svg" alt="Section Background" className="absolute top-0 -z-10" />
+      <img src="/section.svg"  width="368" height="150" alt="Section Background" loading="lazy" className="absolute top-0 -z-10" />
 
       <div className="flex justify-center my-5 lg:py-8">
         <div className="flex items-center">
@@ -15,13 +15,14 @@ const BehindTheResume = ({ behindTheResume }) => {
         </div>
       </div>
 
-      {behindTheResume.map((item, index) => (
+      {behindTheResume && behindTheResume.length > 0 && behindTheResume.map((item, index) => (
         <div key={index} className="rounded-lg border border-[#1b2c68a0] bg-gradient-to-r from-[#0d1224] to-[#0a0d37] shadow-lg overflow-hidden">
           <div className="h-48 w-full overflow-hidden">
             <img
               src={item.image}
               alt={item.title}
-              className="w-full h-full object-contain"
+              loading="lazy"
+              className="rounded-lg mx-auto w-full h-full object-contain"
             />
           </div>
 

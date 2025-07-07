@@ -15,9 +15,9 @@ const Hero = ({ personalData }) => {
           </h1>
 
           <div className="my-8 flex items-center gap-5">
-            <a href={personalData.github} target="_blank" rel="noreferrer" className="transition-all text-pink-500 hover:scale-125 duration-300"><BsGithub size={30} /></a>
-            <a href={personalData.linkedIn} target="_blank" rel="noreferrer" className="transition-all text-pink-500 hover:scale-125 duration-300"><BsLinkedin size={30} /></a>
-            <a href={personalData.leetcode} target="_blank" rel="noreferrer" className="transition-all text-pink-500 hover:scale-125 duration-300"><SiLeetcode size={30} /></a>
+            <a href={personalData.github} target="_blank" rel="noopener noreferrer" className="transition-all text-pink-500 hover:scale-125 duration-300"><BsGithub size={30} /></a>
+            <a href={personalData.linkedIn} target="_blank" rel="noopener noreferrer" className="transition-all text-pink-500 hover:scale-125 duration-300"><BsLinkedin size={30} /></a>
+            <a href={personalData.leetcode} target="_blank" rel="noopener noreferrer" className="transition-all text-pink-500 hover:scale-125 duration-300"><SiLeetcode size={30} /></a>
           </div>
 
           <div className="flex items-center gap-4">

@@ -4,17 +4,17 @@ import ProjectCard from "../../Components/ProjectCard";
 const Projects = () => {
   const projects = [
     {
+      name: "MercadoIntel - In Production...",
+      tools: ["Python", "Pandas","NumPy", "TextBlob", "NLTK", "PostgreSQL", "React", "FastAPI"],
+      role: "Full-Stack Engineer & Data Analyst",
+      description: "Developing a data intelligence tool for MercadoLibre users to analyze pricing trends and review sentiment. Leading full-stack development with a focus on clean architecture and actionable product insights.",
+    },
+    {
       name: "Project Dismantle",
       tools: ["React", "Tailwind", "Node", "Vercel", "Node.js", "Express"],
       role: "Full-Stack Engineer",
       description: "Built this very site to showcase my full-stack journey — including a custom backend for email contact."
     },
-    {
-      name: "Project Jarvis - Coming Soon...",
-      tools: ["N/A"],
-      role: "Full-Stack Engineer",
-      description: "Designing your AI best friend: a task-savvy, productivity-driven daily companion."
-    }
   ];
 
   return (

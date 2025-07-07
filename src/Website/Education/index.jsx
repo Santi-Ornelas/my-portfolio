@@ -4,10 +4,11 @@ import GlowCard from "../../Components/GlowCard";
 import desktopAnim from "../../Assets/desktop-final.json";
 import { BsPersonWorkspace } from "react-icons/bs";
 
+
 const Education = ({ educations }) => {
   return (
     <section id="education" className="relative z-50 border-t my-12 lg:my-24 border-[#25213b]" data-aos="fade-up">
-      <img src="/section.svg" alt="Section Background" className="absolute top-0 -z-10" />
+      <img src="/section.svg"  width="368" height="150" alt="Section Background" loading="lazy" className="absolute top-0 -z-10" />
 
       <div className="flex justify-center -translate-y-[1px]">
         <div className="w-3/4">
@@ -36,7 +37,7 @@ const Education = ({ educations }) => {
               {educations.map((education) => (
                 <GlowCard key={education.id}>
                   <div className="p-3 relative text-white">
-                    <img src="/blur-23.svg" alt="Blur" className="absolute bottom-0 opacity-80" />
+                  <img src="/blur-23.svg" width="334" height="132" alt="Blur effect" loading="lazy" className="absolute bottom-0 opacity-80" />
                     <div className="flex justify-center">
                       <p className="text-xs sm:text-sm text-[#16f2b3]">{education.duration}</p>
                     </div>
