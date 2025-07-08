@@ -26,6 +26,12 @@ import react from '../../Assets/react.svg';
 import microsoft from '../../Assets/microsoftoffice.svg';
 import tailwind from '../../Assets/tailwind.svg';
 import python from '../../Assets/python.svg';
+import fastapi from '../../Assets/fastapi.svg';
+import figma from '../../Assets/figma.svg';
+import matlab from '../../Assets/matlab.svg';
+import numpy from '../../Assets/numpy.svg';
+import pandas from '../../Assets/pandas.svg';
+import postgresql from '../../Assets/postgresql.svg';
 
 const Experience = React.lazy(() => import('../Experience'));
 const Education = React.lazy(() => import('../Education'));
@@ -45,6 +51,12 @@ const Home = () => {
     { name: 'Tailwind', icon: tailwind },
     { name: 'Microsoft Office', icon: microsoft },
     { name: 'Python', icon: python },
+    { name: 'FastAPI', icon: fastapi },
+    { name: 'Numpy', icon: numpy },
+    { name: 'Pandas', icon: pandas },
+    { name: 'Matlab', icon: matlab },
+    { name: 'PostgreSQL', icon: postgresql },
+    { name: 'Figma', icon: figma },
   ];
   const behindTheResume = [
     {

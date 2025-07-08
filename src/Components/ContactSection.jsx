@@ -4,6 +4,7 @@ import { MdAlternateEmail } from 'react-icons/md';
 import { IoMdCall } from 'react-icons/io';
 import { BsGithub, BsLinkedin } from 'react-icons/bs';
 import ContactForm from './ContactForm';
+import { SiLeetcode } from 'react-icons/si';
 
 const ContactSection = () => {
   const contactInfo = {
@@ -38,6 +39,9 @@ const ContactSection = () => {
             </a>
             <a href={contactInfo.linkedin} target="_blank" rel="noopener noreferrer">
               <BsLinkedin size={32} className="hover:text-pink-500 transition duration-300" />
+            </a>
+            <a href={contactInfo.leetcode} target="_blank" rel="noopener noreferrer">
+              <SiLeetcode size={32} className="hover:text-pink-500 transition duration-300" />
             </a>
           </div>
         </div>

@@ -1,4 +1,4 @@
-import React, { Suspense } from "react";
+import React from "react";
 import GlowCard from "../../Components/GlowCard";
 import { BsPersonWorkspace } from "react-icons/bs";
 

@@ -3,7 +3,7 @@ export const personalData = {
   designation: "ex-Strategy Consultant turning into Full-Stack Developer",
   github: "https://www.github.com/Santi-Ornelas",
   linkedIn: "https://www.linkedin.com/in/santiago-ornelas/",
-  leetcode: "https://leetcode.com/",
+  leetcode: "https://leetcode.com/u/santi-ornelas/",
   resume: "/resume.pdf",
   profile: "/profile.webp",
   description: `I walked away from a fast-track career in strategy consulting to chase something deeper — the urge to build.
