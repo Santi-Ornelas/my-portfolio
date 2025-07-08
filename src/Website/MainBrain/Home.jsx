@@ -82,7 +82,7 @@ const Home = () => {
         loading="lazy"
         className="absolute top-0 left-0 w-full h-full object-cover -z-10 opacity-30"
       />
-      <main className="pt-[100px] flex flex-col items-center px-4 md:px-10 lg:px-24 w-full max-w-screen-xl mx-auto space-y-24">
+      <main className="pt-[100px] flex flex-col items-center px-4 mb-20 md:px-10 lg:px-24 w-full max-w-screen-xl mx-auto space-y-24">
         <Hero personalData={personalData} />
         <About personalData={personalData} />
         <Suspense fallback={<div>Loading experience...</div>}>

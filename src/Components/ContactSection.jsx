@@ -2,7 +2,6 @@
 import React from 'react';
 import { MdAlternateEmail } from 'react-icons/md';
 import { IoMdCall } from 'react-icons/io';
-import { CiLocationOn } from 'react-icons/ci';
 import { BsGithub, BsLinkedin } from 'react-icons/bs';
 import ContactForm from './ContactForm';
 
