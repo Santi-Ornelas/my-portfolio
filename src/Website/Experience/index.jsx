@@ -1,7 +1,7 @@
-import React from "react";
+import React, {Suspense} from "react";
 import { BsPersonWorkspace } from "react-icons/bs";
-import AnimationLottie from "../../Components/animation-lottie";
 import GlowCard from "../../Components/GlowCard";
+const AnimationLottie = React.lazy(() => import('../../Components/animation-lottie'));
 
 const Experience = ({ experiences }) => {
   return (
@@ -20,7 +20,9 @@ const Experience = ({ experiences }) => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-16">
           <div className="flex justify-center items-start">
             <div className="w-full h-full">
-              <AnimationLottie animationPath="/code.json" />
+              <Suspense fallback={<div>Loading animation...</div>}>
+                <AnimationLottie animationPath="/code.json" />
+              </Suspense>
             </div>
           </div>
           <div>
